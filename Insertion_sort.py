@@ -18,5 +18,11 @@ def insertionSort(ar):
                 ar[y]= a
                 arvalue = ' '.join(str(v) for v in ar)
                 print arvalue
+                return;
+       
+        if (a <= ar[0]):
+            ar[0]= a
+            arvalue = ' '.join(str(v) for v in ar)
+            print arvalue
        
 insertionSort(ar)
